@@ -1,0 +1,14 @@
+/* Global app styles kept minimal. Component-specific styles moved to homepage component. */
+:host {
+  font-family:
+    'Raleway',
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+}

@@ -57,3 +57,14 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Recent changes
+
+- Converted the Figma hero design into a responsive Angular standalone component: src/app/homepage/homepage.component.ts/html/css.
+- Replaced inline absolute-positioned Figma HTML with responsive Grid/Flexbox layout and media queries for mobile, tablet, and desktop.
+- Introduced a pastel yellow and pink color scheme via CSS custom properties and component styles.
+- Added Google Fonts (Raleway, Oxanium) in src/index.html.
+- Updated app to use the homepage component (<app-homepage/>) and imported HomepageComponent in src/app/app.ts.
+- Changed site branding from "Quriarbox" to "Dear Lavion" and updated the document title to "Dear Lavion" in src/index.html.
+
+These changes keep the visual design while improving responsiveness, accessibility, and maintainability.
