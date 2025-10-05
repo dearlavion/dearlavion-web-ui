@@ -6,7 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
   selector: 'app-root',
   imports: [RouterOutlet, HomepageComponent],
   templateUrl: './app.html',
-  styleUrls: ['./app.css']
+  styleUrls: ['./app.css'],
 })
 export class App {
   protected readonly title = signal('dearlavion-web-ui');

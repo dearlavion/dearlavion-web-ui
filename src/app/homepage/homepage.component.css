@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #FFB3D9;
-  --primary-dark: #FF8FC7;
-  --accent-yellow: #FFF4B8;
-  --accent-yellow-dark: #FFEAA7;
+  --primary-color: #ffb3d9;
+  --primary-dark: #ff8fc7;
+  --accent-yellow: #fff4b8;
+  --accent-yellow-dark: #ffeaa7;
   --text-dark: #261134;
-  --text-gray: #4D4D4D;
+  --text-gray: #4d4d4d;
   --text-muted: #817382;
-  --bg-white: #FFF;
-  --bg-light-pink: #FFE4D9;
-  --bg-light-yellow: #FFFACD;
+  --bg-white: #fff;
+  --bg-light-pink: #ffe4d9;
+  --bg-light-yellow: #fffacd;
 }
 
 * {
@@ -19,7 +19,7 @@
 
 .hero-section {
   min-height: 100vh;
-  background: linear-gradient(135deg, #FFF8F0 0%, #FFF4F8 50%, #FFFEF5 100%);
+  background: linear-gradient(135deg, #fff8f0 0%, #fff4f8 50%, #fffef5 100%);
   position: relative;
   overflow: hidden;
 }
@@ -220,7 +220,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
