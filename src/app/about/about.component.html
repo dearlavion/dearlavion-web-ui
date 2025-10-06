@@ -1,0 +1,91 @@
+<!-- Video Modal Section -->
+<section class="video-section">
+  <div class="video-container">
+    <img
+      src="https://api.builder.io/api/v1/image/assets/TEMP/88573efb7ad1334be289dc17563e9177fa21c7e7?width=2640"
+      alt="Fastest Delivery"
+      class="video-bg"
+    />
+    <div class="video-overlay">
+      <div class="play-button">
+        <svg width="43" height="44" viewBox="0 0 43 44" fill="none">
+          <ellipse cx="21.5" cy="22" rx="43" ry="43.3739" fill="#F95C19" />
+          <path
+            d="M28 21.0419C29.333 21.8117 29.333 23.7362 28 24.506L16 31.3624C14.667 32.1322 13 31.1699 13 29.6303V15.9175C13 14.3779 14.667 13.4157 16 14.1855L28 21.0419Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+      <h2 class="video-label">FASTEST DELIVERY</h2>
+      <p class="video-text">
+        You can get your valuable item in the fastest period of<br />
+        time with safety. Because your emergency<br />
+        is our first priority.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Counter Section -->
+<section class="stats-section">
+  <div class="stats-container">
+    @for (stat of stats; track stat.label) {
+      <div class="stat-card">
+        <div class="stat-icon" [attr.data-icon]="stat.icon"></div>
+        <h3 class="stat-number">{{ stat.number }}</h3>
+        <p class="stat-label">{{ stat.label }}</p>
+      </div>
+    }
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial-section">
+  <div class="testimonial-container">
+    <div class="testimonial-header">
+      <svg class="quote-icon" width="133" height="133" viewBox="0 0 133 133" fill="none">
+        <path
+          opacity="0.4"
+          d="M24.4546 33.8681C13.9975 45.2174 15.0504 59.792 15.0837 59.9583V104.292C15.0837 105.761 15.6675 107.171 16.7068 108.21C17.7461 109.249 19.1556 109.833 20.6253 109.833H53.8754C59.9878 109.833 64.9587 104.862 64.9587 98.7499V59.9583C64.9587 58.4885 64.3748 57.079 63.3356 56.0397C62.2963 55.0004 60.8868 54.4166 59.417 54.4166H42.3598C42.4769 51.6769 43.2954 49.0131 44.7371 46.6804C47.5523 42.2416 52.8557 39.2103 60.5087 37.6808L64.9587 36.7941V21.1666H59.417C43.9946 21.1666 32.2296 25.4392 24.4546 33.8681ZM85.4518 33.8681C74.9891 45.2174 76.0476 59.792 76.0808 59.9583V104.292C76.0808 105.761 76.6647 107.171 77.7039 108.21C78.7432 109.249 80.1527 109.833 81.6225 109.833H114.872C120.985 109.833 125.956 104.862 125.956 98.7499V59.9583C125.956 58.4885 125.372 57.079 124.333 56.0397C123.293 55.0004 121.884 54.4166 120.414 54.4166H103.357C103.474 51.6769 104.293 49.0131 105.734 46.6804C108.549 42.2416 113.853 39.2103 121.506 37.6808L125.956 36.7941V21.1666H120.414C104.992 21.1666 93.2267 25.4392 85.4518 33.8681Z"
+          fill="#FFAF0F"
+        />
+      </svg>
+      <div class="testimonial-titles">
+        <h2 class="testimonial-label">TESTIMONIAL</h2>
+        <h3 class="testimonial-title">Our Awesome Clients</h3>
+      </div>
+    </div>
+
+    <div class="testimonial-cards">
+      @for (testimonial of testimonials; track testimonial.name) {
+        <div class="testimonial-card">
+          <h4 class="testimonial-card-title">{{ testimonial.title }}</h4>
+          <div class="rating-stars">
+            @for (star of [1, 2, 3, 4, 5]; track star) {
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path
+                  d="M18.4877 9.16373C18.7007 9.00619 18.8588 8.78641 18.9396 8.53522C19.0205 8.28403 19.0201 8.01402 18.9386 7.76304C18.857 7.51207 18.6984 7.29272 18.485 7.13575C18.2715 6.97878 18.0139 6.89206 17.7483 6.88775L12.5895 6.69429C12.5642 6.69255 12.5398 6.68357 12.5195 6.66843C12.4992 6.65329 12.4837 6.63263 12.4749 6.60894L10.6922 1.8294C10.6027 1.58623 10.44 1.37626 10.2262 1.22791C10.0125 1.07956 9.75796 1 9.49713 1C9.23631 1 8.98179 1.07956 8.76803 1.22791C8.55426 1.37626 8.39159 1.58623 8.30202 1.8294L6.52511 6.62601C6.51633 6.6497 6.50084 6.67036 6.4805 6.6855C6.46016 6.70064 6.43584 6.70962 6.41048 6.71136L1.25171 6.90482C0.986099 6.90913 0.728501 6.99584 0.51504 7.15281C0.301579 7.30978 0.142959 7.52914 0.061422 7.78011C-0.0201152 8.03109 -0.020481 8.3011 0.0603758 8.55229C0.141233 8.80348 0.299257 9.02326 0.512292 9.1808L4.55905 12.3387C4.57931 12.3545 4.59444 12.3759 4.60259 12.4002C4.61074 12.4244 4.61155 12.4506 4.60491 12.4753L3.21204 17.3743C3.13987 17.6238 3.14686 17.8893 3.23207 18.1347C3.31728 18.38 3.47658 18.5934 3.68828 18.7457C3.89999 18.8981 4.15383 18.982 4.41527 18.986C4.67671 18.9901 4.93306 18.9141 5.14944 18.7683L9.42548 15.9234C9.44655 15.9089 9.47154 15.9012 9.49713 15.9012C9.52273 15.9012 9.54772 15.9089 9.56878 15.9234L13.8448 18.7683C14.0583 18.919 14.3137 19 14.5756 19C14.8376 19 15.093 18.919 15.3065 18.7683C15.5182 18.6174 15.6777 18.4051 15.7629 18.1606C15.8481 17.916 15.8548 17.6513 15.7822 17.4028L14.3779 12.4867C14.3705 12.462 14.3709 12.4356 14.3791 12.4112C14.3873 12.3867 14.4029 12.3654 14.4238 12.3501L18.4877 9.16373Z"
+                  fill="#F95C19"
+                />
+              </svg>
+            }
+          </div>
+          <p class="testimonial-text">{{ testimonial.text }}</p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <p class="author-name">{{ testimonial.name }}</p>
+              <p class="author-position">{{ testimonial.position }}</p>
+            </div>
+            <img [src]="testimonial.image" [alt]="testimonial.name" class="author-avatar" />
+          </div>
+        </div>
+      }
+    </div>
+
+    <div class="carousel-dots">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+<section class="services-section">
+  <div class="services-container">
+    <h2 class="services-label">SERVICES</h2>
+    <h3 class="services-title">Our services for you</h3>
+
+    <div class="services-grid">
+      @for (service of services; track service.title) {
+        <div class="service-card">
+          <img [src]="service.icon" [alt]="service.title" class="service-icon" />
+          <h4 class="service-title">{{ service.title }}</h4>
+          <p class="service-description">{{ service.description }}</p>
+          <ul class="service-items">
+            @for (item of service.items; track item) {
+              <li class="service-item">
+                <svg class="bullet-icon" width="8" height="7" viewBox="0 0 8 7" fill="none">
+                  <ellipse cx="4.2709" cy="3.5" rx="3.65517" ry="3.5" fill="#F95C19" />
+                </svg>
+                <span>{{ item }}</span>
+              </li>
+            }
+          </ul>
+          <button
+            [class]="
+              service.buttonStyle === 'filled' ? 'service-btn filled' : 'service-btn outline'
+            "
+          >
+            Learn more
+          </button>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<app-background></app-background>
+<app-footer></app-footer>
