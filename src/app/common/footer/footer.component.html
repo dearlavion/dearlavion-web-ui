@@ -1,0 +1,55 @@
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <div class="logo">
+        <svg width="55" height="51" viewBox="0 0 55 51" fill="none">
+          <path
+            d="M26.2216 44.023L44.8471 31.1049C45.9808 30.317 46.6138 29.0446 46.6322 27.7452L46.8561 14.1551C46.8772 12.8778 46.1027 11.7294 44.9221 11.2872L32.3607 6.58207C31.1608 6.12934 29.7632 6.26803 28.6294 7.05591L10.0272 20.0084L26.3145 26.3242L26.2216 44.023Z"
+            fill="#F95C19"
+          />
+          <path
+            d="M28.9477 6.71895L10.2127 19.7131C9.07229 20.5056 8.43554 21.7855 8.41703 23.0925L8.19159 36.7751C8.17054 38.0523 8.94499 39.2007 10.1256 39.643L22.7725 44.3801C23.9795 44.8355 25.3853 44.696 26.5257 43.9035L45.2374 30.8748L30.7679 25.2639C29.6155 24.8171 28.8586 23.6946 28.8652 22.4425L28.9477 6.71895Z"
+            fill="#CA3E02"
+          />
+        </svg>
+        <span class="logo-text">Quriarbox</span>
+      </div>
+      <p class="footer-tagline">The most trusted Courier<br />company in your area.</p>
+    </div>
+
+    <div class="footer-links">
+      <div class="link-column">
+        <h4 class="link-title">Other links</h4>
+        <ul class="link-list">
+          @for (link of footerLinks.otherLinks; track link.label) {
+            <li>
+              <a [href]="link.href">{{ link.label }}</a>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <div class="link-column">
+        <h4 class="link-title">Services</h4>
+        <ul class="link-list">
+          @for (link of footerLinks.services; track link.label) {
+            <li>
+              <a [href]="link.href">{{ link.label }}</a>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <div class="link-column">
+        <h4 class="link-title">Customer Care</h4>
+        <ul class="link-list">
+          @for (link of footerLinks.customerCare; track link.label) {
+            <li>
+              <a [href]="link.href">{{ link.label }}</a>
+            </li>
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
