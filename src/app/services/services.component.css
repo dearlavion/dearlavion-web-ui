@@ -9,7 +9,7 @@
 }
 
 .services-label {
-  color: #f95c19;
+  color: #D98AA7;
   font-family: 'Oxanium', sans-serif;
   font-size: 1.95rem;
   font-weight: 700;
@@ -110,29 +110,29 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid #f95c19;
+  border: 1px solid #D98AA7;
 }
 
 .service-btn.outline {
   background: transparent;
-  color: #f95c19;
+  color: #D98AA7;
 }
 
 .service-btn.outline:hover {
-  background: #f95c19;
+  background: #D98AA7;
   color: white;
 }
 
 .service-btn.filled {
-  background: #f95c19;
+  background: #D98AA7;
   color: white;
   border: none;
 }
 
 .service-btn.filled:hover {
-  background: #e04d15;
+  background: #C67A95;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(249, 92, 25, 0.3);
+  box-shadow: 0 4px 12px rgba(217, 138, 167, 0.3);
 }
 
 @media screen and (max-width: 1024px) {
