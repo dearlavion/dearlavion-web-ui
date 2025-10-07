@@ -31,17 +31,10 @@
   flex-shrink: 0;
 }
 
-.logo-text {
-  font-family:
-    'Oxanium',
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #f95c19;
-  line-height: normal;
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -69,12 +62,12 @@
 }
 
 .nav-links a.active {
-  color: #f95c19;
+  color: #d98aa7;
   font-weight: 800;
 }
 
 .nav-links a:hover {
-  color: #f95c19;
+  color: #d98aa7;
 }
 
 .nav-actions {
@@ -120,7 +113,7 @@
     sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: #f95c19;
+  color: #d98aa7;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -130,7 +123,7 @@
 }
 
 .contact-btn:hover {
-  background: #f95c19;
+  background: #d98aa7;
   color: white;
   transform: translateY(-2px);
 }

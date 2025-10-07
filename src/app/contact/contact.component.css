@@ -10,7 +10,7 @@
 }
 
 .find-us-label {
-  color: #f95c19;
+  color: #d98aa7;
   font-family: 'Oxanium', sans-serif;
   font-size: 1.95rem;
   font-weight: 700;
@@ -109,7 +109,7 @@
 }
 
 .social-icon:hover {
-  background: #f95c19;
+  background: #d98aa7;
   transform: translateY(-2px);
 }
 
@@ -126,7 +126,7 @@
   max-width: 560px;
   margin: 0 auto;
   padding: 1.25rem 2rem;
-  background: #f95c19;
+  background: #d98aa7;
   color: white;
   border: none;
   border-radius: 5px;
@@ -138,9 +138,9 @@
 }
 
 .call-button:hover {
-  background: #e04d15;
+  background: #c67a95;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(249, 92, 25, 0.3);
+  box-shadow: 0 4px 12px rgba(217, 138, 167, 0.3);
 }
 
 /* Email Subscription Section */
@@ -175,7 +175,7 @@
 }
 
 .form-label {
-  color: #f95c19;
+  color: #d98aa7;
   font-family: 'Oxanium', sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -204,13 +204,13 @@
 }
 
 .email-input:focus {
-  border-color: #f95c19;
+  border-color: #d98aa7;
 }
 
 .subscribe-btn {
   padding: 0.75rem 1.25rem;
   border-radius: 5px;
-  background: #f95c19;
+  background: #d98aa7;
   color: white;
   border: none;
   font-family: 'Oxanium', sans-serif;
@@ -221,9 +221,9 @@
 }
 
 .subscribe-btn:hover {
-  background: #e04d15;
+  background: #c67a95;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(249, 92, 25, 0.3);
+  box-shadow: 0 4px 12px rgba(217, 138, 167, 0.3);
 }
 
 @media screen and (max-width: 1024px) {
