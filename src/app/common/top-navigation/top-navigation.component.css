@@ -32,7 +32,12 @@
 }
 
 .logo-text {
-  font-family: 'Oxanium', -apple-system, Roboto, Helvetica, sans-serif;
+  font-family:
+    'Oxanium',
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #f95c19;
@@ -49,7 +54,12 @@
 }
 
 .nav-links a {
-  font-family: 'Raleway', -apple-system, Roboto, Helvetica, sans-serif;
+  font-family:
+    'Raleway',
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #817382;
@@ -102,7 +112,12 @@
   border-radius: 5px;
   background: #ffe4d9;
   border: none;
-  font-family: 'Oxanium', -apple-system, Roboto, Helvetica, sans-serif;
+  font-family:
+    'Oxanium',
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #f95c19;
