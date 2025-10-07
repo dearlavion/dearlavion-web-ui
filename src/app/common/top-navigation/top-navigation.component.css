@@ -62,12 +62,12 @@
 }
 
 .nav-links a.active {
-  color: #D98AA7;
+  color: #d98aa7;
   font-weight: 800;
 }
 
 .nav-links a:hover {
-  color: #D98AA7;
+  color: #d98aa7;
 }
 
 .nav-actions {
@@ -113,7 +113,7 @@
     sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: #D98AA7;
+  color: #d98aa7;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -123,7 +123,7 @@
 }
 
 .contact-btn:hover {
-  background: #D98AA7;
+  background: #d98aa7;
   color: white;
   transform: translateY(-2px);
 }
