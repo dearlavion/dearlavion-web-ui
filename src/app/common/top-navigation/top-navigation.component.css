@@ -31,17 +31,10 @@
   flex-shrink: 0;
 }
 
-.logo-text {
-  font-family:
-    'Oxanium',
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #f95c19;
-  line-height: normal;
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
